@@ -1,0 +1,27 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/banner"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    tools:context="com.example.kitadaharuka.blog.BannerFragment">
+
+    <ImageView
+        android:id="@+id/banner_img"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:id="@+id/banner_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Title1"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:background="@color/black"/>
+
+</RelativeLayout>

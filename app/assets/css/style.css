@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+img{
+    width: 100%;
+    height: auto;
+}
+.main_image{
+    padding:0 0 15px 0;
+}
+.main_content{
+    padding: 10px;
+}
+.category{
+    margin:0 0 15px 0;
+}
+.category span{
+    color: #fff;
+    padding: 3px;
+    display: inline-block;
+}
+.category.Food span{
+    background: #44958F;
+}
+.category.Event span{
+    background: #3065ba;
+}
+.category.Beauty span{
+     background: #91378c;
+}
+.category.News span{
+     background: #e07518;
+}
+h1{
+    font-size: 23px;
+    font-weight: bold;
+    padding: 0 0 5px 0;
+    margin: 0 0 15px 0;
+    border-bottom: solid #333 1px;
+}
+.content p{
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 0 0 10px 0;
+}
